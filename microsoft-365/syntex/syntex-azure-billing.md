@@ -1,10 +1,10 @@
 ---
-title: Configure Microsoft Syntex for pay-as-you-go billing in Azure
-ms.author: mikeplum
-author: MikePlumleyMSFT
+title: Configure Microsoft Syntex for pay-as-you-go billing
+ms.author: chucked
+author: chuckedmonson
 ms.reviewer: kkamath
-ms.date: 10/07/2022
-manager: serdars
+ms.date: 05/15/2023
+manager: pamgreen
 audience: admin
 ms.topic: conceptual
 ms.service: microsoft-syntex
@@ -17,9 +17,9 @@ ms.localizationpriority: medium
 description: Learn about how to set up pay-as-you-go Azure billing for Microsoft Syntex and how to monitor your usage.
 ---
 
-# Configure Microsoft Syntex for pay-as-you-go billing in Azure
+# Configure Microsoft Syntex for pay-as-you-go billing
 
-Some Microsoft Syntex features are billed on a pay-as-you-go basis. These features use an Azure subscription for billing and track usage and cost with Azure meters. Read the [Microsoft Syntex pay-as-you-go terms of service](/legal/microsoft-365/microsoft-syntex-pay-as-you-go-terms) before you configure pay-as-you-go.
+Some Microsoft Syntex features are billed on a pay-as-you-go basis. These features use an Azure subscription for billing and track usage and cost with a Syntex meter. Read the [Microsoft Syntex pay-as-you-go terms of service](/legal/microsoft-365/microsoft-syntex-pay-as-you-go-terms) before you configure pay-as-you-go.
 
 For a list of Microsoft Syntex features that use pay-as-you-go, see [Licensing for Microsoft Syntex](syntex-licensing.md)
 
@@ -61,8 +61,6 @@ To configure Microsoft Syntex billing
 
 If you need to change or disconnect your Azure subscription, you can select **Manage billing** on the **Use content AI with Microsoft Syntex**.
 
-If you have not previously configured Microsoft Syntex, read [Set up Microsoft Syntex](set-up-content-understanding.md) to learn how.
-
 ## Monitor your Microsoft Syntex pay-as-you-go usage
 
 You can monitor your Microsoft Syntex pay-as-you-go usage in Azure Cost Management. You must have at least *read* access to the resource group that you specified for Microsoft Syntex. Note that usage information may take up to 24 hours to appear in Cost Management.
@@ -82,7 +80,7 @@ The following tags are available:
 
 For more information about filter options in Cost Management, see [Group and filter options in Cost analysis](/azure/cost-management-billing/costs/group-filter).
 
-## Related topics
+## Related articles
 
 [Overview of Microsoft Syntex](syntex-overview.md)
 
