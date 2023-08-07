@@ -57,6 +57,12 @@ Deploy Removable Storage Access Control on Windows 10 and Windows 11 devices tha
 
 :::image type="content" source="images/powershell.png" alt-text="Screenshot of the PowerShell interface" lightbox="images/powershell.png":::
 
+#Change
+#images/powershell.png
+
+#to the screen shot here:
+#https://microsoft-my.sharepoint-df.com/:i:/p/yongrhee/EfS_bBUFIQVKsO3lV0u_4mIBvIkHhKcDSqklB7S3mn2FgQ?e=b8Zt8G
+
 > [!NOTE]
 > None of Windows Security components need to be active as you can run Removable Storage Access Control independent of Windows Security status.
 
